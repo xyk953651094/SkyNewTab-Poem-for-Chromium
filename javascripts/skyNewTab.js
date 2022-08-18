@@ -61,7 +61,7 @@ layui.use(["layer"], function(){
     }
 
     // 获取天气
-    function getWeather() {
+    function setWeather() {
         $.ajax({
             url: "https://v2.jinrishici.com/info",
             type: "GET",
@@ -81,12 +81,11 @@ layui.use(["layer"], function(){
     }
 
     // 获取诗词
-    function getPoem() {
+    function setPoem() {
         jinrishici.load(function(result) {
             // 自己的处理逻辑
             poemSentenceI.html(result.data.content);
             poemInfoI.html("【" + result.data.origin.dynasty + "】" + result.data.origin.author + "《" + result.data.origin.title + "》")
-            console.log(result)
         });
     }
 
@@ -136,7 +135,7 @@ layui.use(["layer"], function(){
     }
 
     setGreet();       // 显示问候语
-    getWeather();     // 获取天气
-    getPoem();        // 获取诗词
+    setWeather();     // 获取天气
+    setPoem();        // 获取诗词
     setColorTheme();  // 设置随机颜色主题
 });
