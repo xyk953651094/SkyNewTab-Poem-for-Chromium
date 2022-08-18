@@ -17,7 +17,10 @@
 
 ## 效果展示
 ### Chrome
+<img width="1440" alt="截屏2022-08-18 11 37 34" src="https://user-images.githubusercontent.com/28004442/185287793-5062dae5-4f54-419c-99f5-f013d31fca0b.png">
 
 ### Edge
+<img width="1440" alt="截屏2022-08-18 11 38 47" src="https://user-images.githubusercontent.com/28004442/185287964-6a0dc2b3-414f-4225-8cb2-d5d544be4371.png">
 
 ### Brave
+<img width="1440" alt="截屏2022-08-18 11 40 21" src="https://user-images.githubusercontent.com/28004442/185288149-29682625-a0be-4bc0-a2dd-cedb1ad5acd1.png">
