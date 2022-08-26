@@ -91,11 +91,17 @@ layui.use(["layer"], function(){
 
     // 显示随机颜色主题
     function setColorTheme() {
-        let randomNum = Math.floor(Math.random() * themeArray.length);
+        let hour = new Date().getHours();
+        let theme = lightThemeArray;
+        if( 18 < hour || hour < 6) {
+            theme = darkThemeArray;
+        }
+        let randomNum = Math.floor(Math.random() * theme.length);  // 随机选择一种主题
+
         let frostedGlass = $(".frostedGlass")
-        $("body").css("background-color", themeArray[randomNum].bodyBackgroundColor);
-        frostedGlass.css("color", getFontColor(themeArray[randomNum].frostedGlassBackgroundColor));
-        frostedGlass.css("background-color", themeArray[randomNum].frostedGlassBackgroundColor);
+        $("body").css("background-color", theme[randomNum].bodyBackgroundColor);
+        frostedGlass.css("color", getFontColor(theme[randomNum].frostedGlassBackgroundColor));
+        frostedGlass.css("background-color", theme[randomNum].frostedGlassBackgroundColor);
 
         //随机显示中国窗体
         let index = Math.floor((Math.random() * chineseIconArray.length));
@@ -105,27 +111,33 @@ layui.use(["layer"], function(){
         let chineseIconI = $("#chineseIconI");
         if (chineseIconI.length > 0) {
             chineseIconI.css({
-                "color": getFontColor(themeArray[randomNum].bodyBackgroundColor),
+                "color": getFontColor(theme[randomNum].bodyBackgroundColor),
             });
-            if(tempClassName === "icon-chuangge4"){
+            // 调整窗体显示效果
+            if(tempClassName === "icon-chuangge2" || tempClassName === "icon-chuangge4"){
                 chineseIconI.css({
                     "transform": "rotate(90deg)"
+                });
+            }
+            if(tempClassName === "icon-chuangge6" || tempClassName === "icon-chuangge8"){
+                chineseIconI.css({
+                    "transform": "rotate(45deg) scale(0.8)"
                 });
             }
         }
 
         // 设置字体颜色
         greetIconI.css({
-            "color": getFontColor(themeArray[randomNum].bodyBackgroundColor),
+            "color": getFontColor(theme[randomNum].bodyBackgroundColor),
         })
 
         greetContentI.css({
-            "color": getFontColor(themeArray[randomNum].bodyBackgroundColor),
+            "color": getFontColor(theme[randomNum].bodyBackgroundColor),
         })
 
         // 设置中国诗词字体颜色
         chinesePoemDiv.css({
-            "color": getFontColor(themeArray[randomNum].bodyBackgroundColor),
+            "color": getFontColor(theme[randomNum].bodyBackgroundColor),
         });
     }
 
