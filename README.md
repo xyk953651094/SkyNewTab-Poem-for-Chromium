@@ -24,3 +24,4 @@
 
 ### Brave
 <img width="1440" alt="截屏2022-08-18 11 40 21" src="https://user-images.githubusercontent.com/28004442/185288149-29682625-a0be-4bc0-a2dd-cedb1ad5acd1.png">
+
