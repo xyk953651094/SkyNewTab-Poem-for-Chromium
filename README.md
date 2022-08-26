@@ -1,4 +1,4 @@
-# SkyNewTab Lite for Chromium
+# SkyNewTab Poem for Chromium
 * Chrome 网上应用商店：（即将发布，敬请期待）
 * Edge 外接程序商店：（即将发布，敬请期待）
 * 语言支持：中文，English
