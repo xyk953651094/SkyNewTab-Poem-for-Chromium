@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "default_locale": "zh_CN",
-  "permissions": [
-    "storage"
-  ],
+  "permissions": [],
   "background": {
     "service_worker": "background.js"
   },
