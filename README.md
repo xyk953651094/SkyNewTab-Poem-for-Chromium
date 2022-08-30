@@ -5,7 +5,7 @@
 
 ## 简介
 适用于 Chromium 的新标签页插件。  
-基于 Html + Javascript + CSS + Layui。 
+基于 Html + Javascript + CSS + Layui。  
 语言：中文，English（不完全）  
 * 节气来源：https://www.mxnzp.com 
 * 天气来源：https://www.jinrishici.com  
