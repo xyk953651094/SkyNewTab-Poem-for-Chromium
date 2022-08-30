@@ -6,14 +6,14 @@
 ## 简介
 适用于 Chromium 的新标签页插件。  
 基于 Html + Javascript + CSS + Layui。 
-* 语言支持：中文，English（不完全）  
+语言：中文，English（不完全）  
 * 节气来源：https://www.mxnzp.com 
 * 天气来源：https://www.jinrishici.com  
 * 诗词来源：https://www.jinrishici.com  
 * 图标来源：https://www.iconfont.cn  
 
 ## 安装
-* [Chrome 网上应用商店](https://chrome.google.com/webstore/detail/sky诗词-新标签页/galnljlphebepllmipeghphneknbmegf/related "跳转至 Chrome 网上应用商店")
+* [Chrome 网上应用商店](https://chrome.google.com/webstore/detail/sky诗词-新标签页/galnljlphebepllmipeghphneknbmegf "跳转至 Chrome 网上应用商店")
 * Edge 外接程序商店（敬请期待）
 * 方法二：下载本页面提供的 crx 文件安装
 
