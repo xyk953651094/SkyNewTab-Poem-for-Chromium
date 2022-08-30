@@ -13,7 +13,7 @@
 * 图标来源：https://www.iconfont.cn  
 
 ## 安装
-* [Chrome 网上应用商店](https://chrome.google.com/webstore/detail/sky诗词-新标签页 "跳转至 Chrome 网上应用商店")
+* [Chrome 网上应用商店](https://chrome.google.com/webstore/detail/sky诗词-新标签页/galnljlphebepllmipeghphneknbmegf/related "跳转至 Chrome 网上应用商店")
 * Edge 外接程序商店（敬请期待）
 * 方法二：下载本页面提供的 crx 文件安装
 
