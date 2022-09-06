@@ -14,7 +14,8 @@
 
 ## 安装
 * [Chrome 网上应用商店](https://chrome.google.com/webstore/detail/sky诗词-新标签页/galnljlphebepllmipeghphneknbmegf "跳转至 Chrome 网上应用商店")
-* Edge 外接程序商店（敬请期待）
+* [Edge 外接程序商店](https://microsoftedge.microsoft.com/addons/detail/ngaddklgdafdaeonklfipibdldmdjimd "跳转至 Chrome 网上应用商店")
+
 * 方法二：下载本页面提供的 crx 文件安装
 
 ## 效果展示
