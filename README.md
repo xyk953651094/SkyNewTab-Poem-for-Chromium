@@ -25,6 +25,7 @@
 <img width="1440" alt="截屏2022-09-08 18 54 48" src="https://user-images.githubusercontent.com/28004442/189104837-0bfd5159-3a7e-4086-adb8-65b767ae978c.png">
 
 ### Edge
+<img width="1440" alt="截屏2022-09-08 19 34 33" src="https://user-images.githubusercontent.com/28004442/189112175-1d197fde-503e-4c82-8e12-0a62bffdae5e.png">
 
 ### Brave
 <img width="1440" alt="截屏2022-09-08 18 56 26" src="https://user-images.githubusercontent.com/28004442/189105224-084e9e55-b638-4822-9ce7-56f2549c76dc.png">
